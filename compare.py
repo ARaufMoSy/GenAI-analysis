@@ -1,8 +1,5 @@
 import google.generativeai as genai
 
-# Setup
-API_KEY = "AIzaSyDqGueA1pjjVDXPcoISIzLGNA2CXaPhsKw"
-genai.configure(api_key=API_KEY)
 
 # Test prompt
 prompt = "Explain the differences between supervised and unsupervised learning"
